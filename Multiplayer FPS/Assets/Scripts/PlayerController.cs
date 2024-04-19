@@ -20,6 +20,9 @@ public class PlayerController : MonoBehaviour {
         eulerX = 0f;
         eulerZ = 0f;
         vertRotationStore = 0f;
+
+        //Locks the cursor inside of the game view
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
